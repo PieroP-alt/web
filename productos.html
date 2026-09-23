@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas Online</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Ventas Online</h1>
+            <p>Productos de almacenamiento</p>
+        </div>
+
+        <button id="modoOscuro">🌙 Modo oscuro</button>
+    </header>
+
+    <main>
+
+        <div class="barra">
+            <input
+                type="text"
+                id="buscar"
+                placeholder="🔎 Buscar producto o marca..."
+            >
+        </div>
+
+        <div class="contenedor-tabla">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Producto</th>
+                        <th>Marca</th>
+                        <th>Capacidad</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td><span class="codigo">A001</span></td>
+                        <td>Disco Duro</td>
+                        <td>Western Digital</td>
+                        <td>1 TB</td>
+                        <td><span class="tipo ssd">SSD</span></td>
+                        <td class="precio">S/. 160</td>
+                        <td>
+                            <img src="fotosproductos/webd.webp" alt="Western Digital 1 TB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A002</span></td>
+                        <td>Disco Mecánico</td>
+                        <td>Seagate</td>
+                        <td>2 TB</td>
+                        <td><span class="tipo hdd">HDD</span></td>
+                        <td class="precio">S/. 200</td>
+                        <td>
+                            <img src="fotosproductos/seagate.jpg" alt="Seagate 2 TB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A003</span></td>
+                        <td>Disco SSD</td>
+                        <td>Kingston</td>
+                        <td>480 GB</td>
+                        <td><span class="tipo ssd">SSD</span></td>
+                        <td class="precio">S/. 150</td>
+                        <td>
+                            <img src="fotosproductos/kingston.webp" alt="Kingston 480 GB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A004</span></td>
+                        <td>Disco SSD</td>
+                        <td>Samsung</td>
+                        <td>1 TB</td>
+                        <td><span class="tipo ssd">SSD</span></td>
+                        <td class="precio">S/. 320</td>
+                        <td>
+                            <img src="fotosproductos/samsung.jpg" alt="Samsung 1 TB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A005</span></td>
+                        <td>Disco Mecánico</td>
+                        <td>Toshiba</td>
+                        <td>1 TB</td>
+                        <td><span class="tipo hdd">HDD</span></td>
+                        <td class="precio">S/. 180</td>
+                        <td>
+                            <img src="fotosproductos/toshiba.jpg" alt="Toshiba 1 TB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A006</span></td>
+                        <td>Disco SSD</td>
+                        <td>Crucial</td>
+                        <td>500 GB</td>
+                        <td><span class="tipo ssd">SSD</span></td>
+                        <td class="precio">S/. 170</td>
+                        <td>
+                            <img src="fotosproductos/crucial.webp" alt="Crucial 500 GB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A007</span></td>
+                        <td>Disco Mecánico</td>
+                        <td>Western Digital</td>
+                        <td>4 TB</td>
+                        <td><span class="tipo hdd">HDD</span></td>
+                        <td class="precio">S/. 380</td>
+                        <td>
+                            <img src="fotosproductos/webd4tb.jpg" alt="Western Digital 4 TB">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="codigo">A008</span></td>
+                        <td>Disco SSD</td>
+                        <td>Kingston</td>
+                        <td>2 TB</td>
+                        <td><span class="tipo ssd">SSD</span></td>
+                        <td class="precio">S/. 520</td>
+                        <td>
+                            <img src="fotosproductos/kingston2tb.webp" alt="Kingston 2 TB">
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+    <script src="productos.js"></script>
+
+</body>
+
+</html>
